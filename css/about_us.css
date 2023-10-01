@@ -1,0 +1,219 @@
+h2, h3, h4, h5, h6 {
+    font-weight: lighter;
+}
+
+.about {
+    margin: 25px 0 35px !important;
+}
+
+.about__main {
+    display: flex;
+}
+
+.about__content {
+    min-width: 600px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.about__content-title {
+    font-size: 28px;
+    margin: 0 0 15px;
+    padding: 5px 0;
+    font-weight: lighter;
+}
+
+.about__content-info {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: start;
+}
+
+.about__content-info__img {
+    width: 100%;
+    height: 100%;
+}
+
+.about__content-info__img-wrapper {
+    min-width: 180px;
+    height: 180px;
+    border: 1px solid #fff;
+    padding: 3px;
+    margin-right: 40px;
+}
+
+.about__content-info__text {
+    color: #413837;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.about__content-info__text .italic {
+    font-style: italic;
+    color: #3D8E8A;
+}
+
+.about__content-info__text a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #3D8E8A;
+}
+
+.about__content-subtitle {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.about__content-subtext {
+    color: #41454E;
+    margin-bottom: 35px;
+}
+
+.about__content-lists {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.about__content-lists button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    border: 1px solid #A0A0A0;
+    background: #C1C1C1;
+    box-shadow: -1px -1px 1px 0px rgba(0, 0, 0, 0.10), 1px 0px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px #C5C5C5 inset;
+    padding: 4px 20px;
+    font-size: 12px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.85);
+    font-weight: bold;
+}
+
+.about__content-list {
+    padding: 0 40px 0 10px;
+    list-style: none;
+}
+
+.about__content-item {
+    position: relative;
+    color: #58A797;
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    padding: 0 0 5px 20px;
+}
+
+.about__content-item::before {
+    width: 10px;
+    height: 17px;
+    content: "";
+    position: absolute;
+    left: 0;
+    background: url(../img/yes.png);
+}
+
+/* aside news */
+.about .aside__news {
+    position: relative;
+    width: 280px;
+}
+
+.about .aside__news-title {
+    color: #000;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.about .aside__news-list {
+    width: 280px;
+    list-style: none;
+}
+
+.about .aside__news-list .post {
+    margin-bottom: 40px;
+    margin-left: -35px;
+}
+
+.about .aside__news-list .post__main {
+    display: flex;
+    position: relative;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0px 5px 1px -5px rgba(0, 0, 0, 0.6);
+}
+
+.about .aside__news-list .post__date {
+    position: absolute;
+    display: block;
+    height: 20px;
+    padding-left: 10px;
+    margin-bottom: 4px;
+    border-radius: 0px 0px 10px 10px;
+    background: #D9D9D9;
+    color: #000;
+    font-size: 13px;
+    left: 0;
+    bottom: -25px;
+}
+
+.about .aside__news-list .post__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .aside__news-list .post__img-wrapper {
+    min-width: 90px;
+    height: 90px;
+    padding-top: 3px;
+    margin-right: 10px;
+}
+
+.about .aside__news-list .post__title {
+    font-weight: bold;
+    color: #3D8E89;
+    font-weight: bold;
+    margin: 0 0 -10px 0;
+}
+
+.about .aside__news-list .post__text {
+    color: #66686A;
+    line-height: 1.3em;
+}
+
+.about .aside__news button {
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #A0A0A0;
+    background: #C1C1C1;
+    box-shadow: -1px -1px 1px 0px rgba(0, 0, 0, 0.10), 1px 0px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px #C5C5C5 inset;
+    padding: 4px 20px;
+    color: #000;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.85);
+}
+
+
+.about .aside__test-title {
+    color: #000;
+    font-size: 24px;
+    padding: 0;
+    margin: 0px 0 15px;
+}
+
+.about .aside__test-title {
+    margin-top: 120px;
+}
+
+.about .aside__test {
+    font-style: italic;
+    color: #000;
+    margin: 0 0 0 10px;
+}
+
+.about .aside__test-author {
+    font-weight: bold;
+    color: #3d8e7d;
+}
